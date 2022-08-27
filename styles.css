@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    position: relative;
+}
+.home-image{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-text{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 30%;
+    transform:translate(-50, 50);
+}
+h2{
+    font-size: 30px;
+    color: #ffff;
+    font-family: Verdana;
+    font-weight: 100;
+    margin: 20px;
+}
+p{
+    color: #ffff;
+    margin: 10px;
+}
+.home-text span{
+    font-weight: 800;
+}
+.home-text button{
+    margin: auto;
+}
+#buttons{
+    position: absolute;
+}
+.menu{
+    background-color: #ffff;
+    border: none;
+    padding: 20px 55px;
+    border-radius: 4px;
+    font-size: 10x;
+    text-decoration: none;
+    text-align: center;
+    margin:10px 10px;
+}
+.cart{
+    background-color: #ffff;
+    border: none;
+    padding: 20px 55px;
+    border-radius: 4px;
+    font-size: 10x;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 10px
+}
+

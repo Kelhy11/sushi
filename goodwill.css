@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        min-height: 100vh;
+         font-family: tahoma;
+}
+header{
+    background-color: rgb(80, 124, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    column-gap: 2rem;
+    margin-top: 150px;
+}
+.page-1{
+    background: url(imgs/aas.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+header h1{
+    font-family: fantasy;
+    font-size: 300%;
+}
+.page-2 form div label{
+    display: block;
+}
+  .page-2 .grid form input{
+    padding: 3px 8px;
+    margin: 10px 0px;
+  }
+  .page-2 > .text{
+    padding: 28px;
+  }
+  .page-2> form > .button{
+    padding: 32px;
+    text-align: center;
+  }
+  .page-2 form  .button  input {
+    background-color:white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .page-2 .grid form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 28px;
+    row-gap: 15px;
+  }
+  .page-2{
+    background-color: #04b63f;
+  }
+  .page-2 .text{
+  padding: 32px;
+  }
+
+
+
